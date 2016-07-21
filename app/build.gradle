@@ -19,12 +19,15 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testCoverageEnabled true
+            multiDexEnabled true
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testCoverageEnabled false
+            multiDexEnabled true
         }
+
     }
     lintOptions {
         // I prefer avoiding a build fail if there is any warning, for they are only warnings
