@@ -48,6 +48,9 @@ android {
         exclude 'LICENSE.txt'
         exclude 'LICENSE'
     }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
 }
 
 dependencies {
