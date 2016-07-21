@@ -123,7 +123,8 @@ apply plugin: 'jacoco'
 jacoco {
     // Use this version for upper ones are broken (with Gradle)
     // https://github.com/jacoco/jacoco/issues/288
-    toolVersion = "0.7.1.201405082137"
+   // toolVersion = "0.7.1.201405082137"
+    toolVersion = "0.7.3.201502191951"
 }
 
 // Edit covered scope if needed
